@@ -1,0 +1,55 @@
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-form);
+}
+
+.image__head {
+  width: 100%;
+  height: 180px;
+}
+
+.profile_pic__place {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  margin: 0 auto;
+}
+
+.name {
+  padding: 4rem 0 0;
+  font-size: 18px;
+}
+
+.image__face {
+  position: absolute;
+  top: -50px;
+  max-width: 100px;
+  height: 100px;
+  border: 2px #fff solid;
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.social {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4px;
+  padding: 1rem 0;
+}
