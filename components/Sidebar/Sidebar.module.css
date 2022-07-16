@@ -11,7 +11,7 @@
   height: 180px;
 }
 
-.profile_pic__place {
+.profile {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -27,9 +27,14 @@
   font-size: 18px;
 }
 
-.image__face {
+.profile_pic {
   position: absolute;
   top: -50px;
+  max-width: 100px;
+  height: 100px;
+}
+
+.image__face {
   max-width: 100px;
   height: 100px;
   border: 2px #fff solid;

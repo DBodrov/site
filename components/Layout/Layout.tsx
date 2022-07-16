@@ -21,7 +21,7 @@ export function Layout({ children }: Props) {
       <Sidebar />
       <main className={css.main}>
         <Navbar />
-        <section>{children}</section>
+        <section style={{width: '100%', height: '100%'}}>{children}</section>
       </main>
     </div>
   );

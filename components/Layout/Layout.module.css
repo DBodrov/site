@@ -2,6 +2,8 @@
   display: grid;
   grid-template: 1fr / 300px 1fr;
   gap: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main {
