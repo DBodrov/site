@@ -11,7 +11,8 @@ const stack = [
   "React",
   "React-Router",
   "React-Query",
-  "Redux",
+  "React-Spring | Framer-Motion",
+  "Redux | Redux ToolKit",
   "Next JS",
   "Node JS",
   "Express",
@@ -35,10 +36,12 @@ const Home: NextPage = () => {
                 animate={{
                   opacity: 1,
                   transition: {
-                    duration: (i + 0.1)/10,
+                    duration: (i + 0.1) / 10,
                   },
                 }}
-              >{item}</motion.li>
+              >
+                {item}
+              </motion.li>
             );
           })}
         </ul>
